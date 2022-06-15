@@ -162,23 +162,29 @@ body {
 }
 
 .page-header-logo {
-    margin-right: 30px;
-    display: block;
+    position: absolute;
+    display: flex;
 }
 
 .navigation-list {
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 550px;
     margin: 0;
     padding: 0;
     list-style-type: none;
+    padding-left: 169px;
 }
 
 .navigation-user {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     max-width: 305px;
+    margin: 0;
+    padding: 0;
     margin-left: auto;
+    list-style-type: none;
 }
 
 .navigation-user-item-button {
@@ -821,15 +827,17 @@ body {
     font-size: 20px;
     line-height: 36px;
     font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
     text-decoration: none;
+    text-transform: uppercase;
     border: 1px solid #82B3D3;
     border-radius: 4px;
     background-color: #82B3D3;
     color: #FFFFFF;
-    padding: 11px 24px 13px;
     margin-right: 8px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .pagination-item:last-child .pagination-link {
